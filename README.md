@@ -24,7 +24,7 @@ Making a set of APIs to query a library database
 /api/find?term=search_term&lt=rentlower&gt=rentgreater&category=category
 ```
 ---
-* ## Important: Date format in below APIs should be of the form `DD-MM-YYYY`
+* ## ⚠️Important: Date format in below APIs should be of the form `DD-MM-YYYY`
 ---
 ### Issue Book
 ```css
