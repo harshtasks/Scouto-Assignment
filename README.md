@@ -28,12 +28,12 @@ Making a set of APIs to query a library database
 ---
 ### Issue Book
 ```css
-/api/issue?book=book_name&person=person_name&date=issue_date
+/api/book/issue?book=book_name&person=person_name&date=issue_date
 ```
 
 ### Return Book
 ```css
-/api/return?book=book_name&person=person_name&date=return_date
+/api/book/return?book=book_name&person=person_name&date=return_date
 ```
 
 ### List of people having a book issued (total_count and currently having)
