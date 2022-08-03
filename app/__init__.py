@@ -12,6 +12,6 @@ def create_app():
     
     @app.route('/')
     def mainpage():
-        return "Go to <a href='https://dbooks.harshio.repl.co/api' target='_blank'>https://dbooks.harshio.repl.co/api</a>"
+        return "Go to <a href='https://localhost:5000/api/find?term=in' target='_blank'>https://localhost:5000/api/find?term=in</a><br>See documentation <a href='https://github.com/harshtasks/Scouto-Assignment/blob/main/README.md' target='_blank'>https://github.com/harshtasks/Scouto-Assignment/blob/main/README.md</a>"
 
     return app
